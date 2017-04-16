@@ -1,5 +1,5 @@
-FROM jleight/phusion-mono:3.12.0
-MAINTAINER Jonathon Leight <jonathon.leight@jleight.com>
+FROM gizmochief7/phusion-mono:3.12.0
+MAINTAINER Justin Ayers <gizmochief7@gmail.com>
 
 RUN set -x \
   && apt-get update \

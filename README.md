@@ -2,7 +2,7 @@ sonarr
 ======
 
 The sonarr image runs [Sonarr](https://sonarr.tv/) on top of the
-[jleight/phusion-mono](https://registry.hub.docker.com/u/jleight/phusion-mono/)
+[gizmochief7/phusion-mono](https://registry.hub.docker.com/u/gizmochief7/phusion-mono/)
 container.
 
 
@@ -16,7 +16,7 @@ a simple example that starts the container and opens port 8989:
 $ docker run \
   --name sonarr \
   -p 8989:8989 \
-  jleight/sonarr
+  gizmochief7/sonarr
 ```
 
 If you want to change the sonarr base URL (which defaults to `/`), you can
@@ -28,5 +28,5 @@ $ docker run \
   --name sonarr \
   -p 8989:8989 \
   -e SONARR_URLBASE=/sonarr \
-  jleight/sonarr
+  gizmochief7/sonarr
 ```
